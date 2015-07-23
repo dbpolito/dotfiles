@@ -1,10 +1,65 @@
-# Git credentials
+# Git Credentials
 GIT_AUTHOR_NAME="Daniel Polito"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 git config --global user.name "$GIT_AUTHOR_NAME"
 GIT_AUTHOR_EMAIL="contato@dbpolito.net"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+# List all files
+alias ll="ls -lahF ${colorflag}"
+
+# Git Aliases
+alias ga='git add'
+alias gall='git add .'
+alias gw='git show'
+alias gs='git status'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gf='git fetch'
+alias gfu='git fetch upstream'
+alias gfud='git fetch upstream develop'
+alias gfum='git fetch upstream master'
+alias gr='git rebase'
+alias grud='git rebase upstream/develop'
+alias grum='git rebase upstream/master'
+alias grs='git reset'
+alias grsr='git reset --hard'
+alias gc='git checkout'
+alias gcb='git checkout -b'
+alias gcp='git cherry-pick'
+alias gcl='git clone'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gmam='git commit --amend'
+alias gl='git log'
+alias glo='git log --oneline'
+alias gp='git pull'
+alias gpo='git pull origin'
+alias gpod='git pull origin develop'
+alias gpom='git pull origin master'
+alias gpu='git pull upstream'
+alias gpud='git pull upstream develop'
+alias gpum='git pull upstream master'
+alias gps='git push'
+alias gpso='git push origin'
+alias gpsod='git push origin develop'
+alias gpsom='git push origin master'
+alias gpsu='git push upstream'
+alias gpsum='git push upstream master'
+alias gpsud='git push upstream develop'
+alias gbclean='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
+
+alias vup='vagrant up'
+alias vups='vagrant up ; vagrant ssh'
+alias vupd='VAGRANT_LOG=debug vagrant up'
+alias vss='vagrant ssh'
+alias vssc='vagrant ssh -c'
+alias vha='vagrant halt'
+alias vde='vagrant destroy'
+
+alias cps='composer'
+alias art='php artisan'
 
 # Vendors
 alias fire="cd ~/Sites/firework"
