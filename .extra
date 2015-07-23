@@ -13,7 +13,9 @@ alias scal="cd ~/Sites/scalablepath"
 
 # Projects
 alias guil="cd ~/Sites/firework/guildery"
-alias guilops="cd ~/Sites/firework/guildery-ops"
+alias guilma="cd ~/Sites/firework/guildery/hosts/manager"
+alias guilww="cd ~/Sites/firework/guildery/hosts/www"
+alias guilop="cd ~/Sites/firework/guildery-ops"
 alias guilva="cd ~/Sites/firework/guildery-ops/vagrant/guildery-dev-bootstrap"
 alias jnas="cd ~/Sites/firework/jnassif"
 alias vaca="cd ~/Sites/scalablepath/vacatia"
