@@ -5,3 +5,16 @@ git config --global user.name "$GIT_AUTHOR_NAME"
 GIT_AUTHOR_EMAIL="contato@dbpolito.net"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+# Vendors
+alias fire="cd ~/Sites/firework"
+alias mobi="cd ~/Sites/mobileinn"
+alias scal="cd ~/Sites/scalablepath"
+
+# Projects
+alias guil="cd ~/Sites/firework/guildery"
+alias guilops="cd ~/Sites/firework/guildery-ops"
+alias guilva="cd ~/Sites/firework/guildery-ops/vagrant/guildery-dev-bootstrap"
+alias jnas="cd ~/Sites/firework/jnassif"
+alias vaca="cd ~/Sites/scalablepath/vacatia"
+
